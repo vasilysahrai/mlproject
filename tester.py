@@ -31,6 +31,9 @@ model.fit(X_train_scaled, y_train)
 # Make predictions
 y_pred = model.predict(X_test_scaled)
 
+# Print only the final predicted output
+print("Final Predicted Output:", y_pred[-1])
+
 # Evaluate the model
 mse = mean_squared_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
