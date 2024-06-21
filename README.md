@@ -48,8 +48,8 @@ To run the code:
 
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone <https://github.com/vasilysahrai/mlproject>
+   cd <mlproject>
 
 2. Install the required libraries if not already installed:
 pip install pandas scikit-learn matplotlib
